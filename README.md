@@ -115,39 +115,46 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
+<img width="711" alt="Screenshot 2025-02-26 at 11 32 27 AM" src="https://github.com/user-attachments/assets/b8119265-8c30-42a3-90df-5d22d34f1e28" />
 
 
 
 grep hello newfile 
 ## OUTPUT
+<img width="711" alt="Screenshot 2025-02-26 at 11 32 41 AM" src="https://github.com/user-attachments/assets/4d3d1974-6c69-4633-8132-9b7870fe98fc" />
 
 
 
 
 grep -v hello newfile 
 ## OUTPUT
+<img width="748" alt="Screenshot 2025-02-26 at 11 33 11 AM" src="https://github.com/user-attachments/assets/bc2ae7c5-ac5d-45b7-b1d5-f1229963deb4" />
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
+<img width="821" alt="Screenshot 2025-02-26 at 11 33 32 AM" src="https://github.com/user-attachments/assets/02df3b26-f551-44fd-a1a1-f5c61b2c5250" />
 
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
+<img width="858" alt="Screenshot 2025-02-26 at 11 34 33 AM" src="https://github.com/user-attachments/assets/17cc708a-44df-4c12-b501-395ff7277e47" />
 
 
 
 
 grep -R ubuntu /etc
 ## OUTPUT
+<img width="771" alt="Screenshot 2025-02-26 at 11 34 56 AM" src="https://github.com/user-attachments/assets/06708cf9-a05b-4963-8e28-0cdcbb90125b" />
 
 
 
 grep -w -n world newfile   
 ## OUTPUT
+<img width="771" alt="Screenshot 2025-02-26 at 11 34 46 AM" src="https://github.com/user-attachments/assets/43e6c0d3-5eb7-401d-a2a2-deb96305f68b" />
 
 
 cat < newfile 

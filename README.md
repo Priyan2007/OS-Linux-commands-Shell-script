@@ -178,59 +178,71 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
+![Screenshot from 2025-03-03 11-17-21](https://github.com/user-attachments/assets/eb1b71f9-58d8-4fef-938a-b3115d1f85a3)
 
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
+![Screenshot from 2025-03-03 11-18-36](https://github.com/user-attachments/assets/6592b8ec-3aaf-4da8-820f-cf798b1cc689)
 
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
+![Screenshot from 2025-03-03 11-19-56](https://github.com/user-attachments/assets/059731d3-ab8e-4a98-8fbf-6d3c6599d27e)
 
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
+![Screenshot from 2025-03-03 11-20-23](https://github.com/user-attachments/assets/59e2104b-d271-4e3e-aa6b-68e763663ad7)
 
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
+![Screenshot from 2025-03-03 11-21-34](https://github.com/user-attachments/assets/c519e10c-90d3-4917-b608-8363547085a2)
 
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
+![Screenshot from 2025-03-03 11-22-10](https://github.com/user-attachments/assets/efed1af5-516d-4bcf-a3ab-3492a708bf00)
 
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
+![Screenshot from 2025-03-03 11-22-35](https://github.com/user-attachments/assets/6a3d824a-19cb-469f-9e30-4e1dcc4bbfb2)
 
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
+![Screenshot from 2025-03-03 11-22-55](https://github.com/user-attachments/assets/ea09cc56-c041-44bc-a84c-9e8e72a72526)
 
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
+![Screenshot from 2025-03-03 11-23-36](https://github.com/user-attachments/assets/f44af8d9-11ec-4691-b9d8-406f3e8ae16b)
 
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
+![Screenshot from 2025-03-03 11-24-06](https://github.com/user-attachments/assets/d09a4fff-2882-4a0d-ac5c-2437de41dbf4)
 
 
 egrep l{2} newfile
 ## OUTPUT
+![Screenshot from 2025-03-03 11-24-59](https://github.com/user-attachments/assets/84feb542-1400-4ce9-9466-2f08cb6a1b86)
 
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+![Screenshot from 2025-03-03 11-25-21](https://github.com/user-attachments/assets/1f77f09f-94b2-4633-a370-415e743030f3)
 
 
 cat > file23

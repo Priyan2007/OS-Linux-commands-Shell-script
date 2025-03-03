@@ -261,36 +261,45 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
+![Screenshot from 2025-03-03 11-34-55](https://github.com/user-attachments/assets/c2e82f19-c60a-4c3d-901d-18ecbc76662e)
 
 
 
 sed -n -e '$p' file23
 ## OUTPUT
+![Screenshot from 2025-03-03 11-36-09](https://github.com/user-attachments/assets/ed4b659d-c3a8-465b-acb2-53518f26fd10)
 
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
+![Screenshot from 2025-03-03 11-36-40](https://github.com/user-attachments/assets/686ee1f3-18b4-40b7-98b6-b9359b37fdd3)
 
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
+![Screenshot from 2025-03-03 11-37-14](https://github.com/user-attachments/assets/5c3fdc63-52f0-4b77-8a03-a024ed4cbcf7)
 
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
+![Screenshot from 2025-03-03 11-37-34](https://github.com/user-attachments/assets/25671cde-a26d-4443-aff4-244bf054e990)
 
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
 
+![Screenshot from 2025-03-03 11-37-59](https://github.com/user-attachments/assets/60feb4a6-9d8e-4f8b-ba6b-259ff4807fc2)
+
+
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
+
 
 
 

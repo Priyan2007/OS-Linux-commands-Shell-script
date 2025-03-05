@@ -91,20 +91,23 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
-<img width="682" alt="Screenshot 2025-02-26 at 11 24 44 AM" src="https://github.com/user-attachments/assets/bc0a9a52-03f4-4dc8-8435-e7a342e3187c" />
+![Screenshot from 2025-03-05 10-44-22](https://github.com/user-attachments/assets/e82a7377-5a51-4c6f-b4a7-13faa8fd960d)
+
 
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-<img width="749" alt="Screenshot 2025-02-26 at 11 25 00 AM" src="https://github.com/user-attachments/assets/d3651aa8-09e5-4209-b828-a43cfb55d073" />
+![Screenshot from 2025-03-05 10-44-38](https://github.com/user-attachments/assets/8ec43151-7aba-49a7-95dc-a1d00b6705f0)
+
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-<img width="749" alt="Screenshot 2025-02-26 at 11 25 19 AM" src="https://github.com/user-attachments/assets/897a0d5d-9bf1-42eb-b43d-cc4484bd681c" />
+![Screenshot from 2025-03-05 10-44-49](https://github.com/user-attachments/assets/991b8f2b-ed1c-4632-b479-1b5828597e84)
+
 
 
 cat < newfile 
@@ -119,46 +122,52 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
-<img width="711" alt="Screenshot 2025-02-26 at 11 32 27 AM" src="https://github.com/user-attachments/assets/b8119265-8c30-42a3-90df-5d22d34f1e28" />
+![Screenshot from 2025-03-05 10-47-39](https://github.com/user-attachments/assets/56f3293d-2f49-4f81-ac02-5a798b7a7e34)
+
 
 
 
 grep hello newfile 
 ## OUTPUT
-<img width="711" alt="Screenshot 2025-02-26 at 11 32 41 AM" src="https://github.com/user-attachments/assets/4d3d1974-6c69-4633-8132-9b7870fe98fc" />
+![Screenshot from 2025-03-05 10-47-51](https://github.com/user-attachments/assets/8eaef493-0be2-4550-9287-f3d5eadb7ce8)
+
 
 
 
 
 grep -v hello newfile 
 ## OUTPUT
-<img width="748" alt="Screenshot 2025-02-26 at 11 33 11 AM" src="https://github.com/user-attachments/assets/bc2ae7c5-ac5d-45b7-b1d5-f1229963deb4" />
+![Screenshot from 2025-03-05 10-48-10](https://github.com/user-attachments/assets/03958186-a91f-4eaf-9d6c-cf21ec1a2715)
+
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
-<img width="821" alt="Screenshot 2025-02-26 at 11 33 32 AM" src="https://github.com/user-attachments/assets/02df3b26-f551-44fd-a1a1-f5c61b2c5250" />
+![Screenshot from 2025-03-05 10-48-37](https://github.com/user-attachments/assets/60c796f3-520a-4eb4-9d38-31538cb41bac)
+
 
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-<img width="858" alt="Screenshot 2025-02-26 at 11 34 33 AM" src="https://github.com/user-attachments/assets/17cc708a-44df-4c12-b501-395ff7277e47" />
+![Screenshot from 2025-03-05 10-48-49](https://github.com/user-attachments/assets/cdcec856-946b-4ffd-bfee-4786f6256901)
 
 
 
 
 grep -R ubuntu /etc
 ## OUTPUT
-<img width="771" alt="Screenshot 2025-02-26 at 11 34 56 AM" src="https://github.com/user-attachments/assets/06708cf9-a05b-4963-8e28-0cdcbb90125b" />
+![Screenshot from 2025-03-05 10-50-34](https://github.com/user-attachments/assets/c1a03299-9a44-4719-a72b-75102b75dea9)
+
 
 
 
 grep -w -n world newfile   
 ## OUTPUT
-<img width="771" alt="Screenshot 2025-02-26 at 11 34 46 AM" src="https://github.com/user-attachments/assets/43e6c0d3-5eb7-401d-a2a2-deb96305f68b" />
+![Screenshot from 2025-03-05 10-49-02](https://github.com/user-attachments/assets/5436db2f-27d6-4562-95d9-e4fa4bf9d002)
+
 
 
 cat < newfile 

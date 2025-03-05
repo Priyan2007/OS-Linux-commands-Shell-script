@@ -42,28 +42,32 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-<img width="637" alt="Screenshot 2025-02-26 at 11 15 34 AM" src="https://github.com/user-attachments/assets/fb2a8194-79d0-4c65-a908-36f3958b1bc7" />
+![Screenshot from 2025-03-05 10-39-17](https://github.com/user-attachments/assets/65f6e7ec-7970-4a4f-ad9f-ce205b989706)
+
 
 
 
 cat < file2
 ## OUTPUT
-<img width="637" alt="Screenshot 2025-02-26 at 11 15 55 AM" src="https://github.com/user-attachments/assets/f365ce02-4124-422d-810f-a412037f6337" />
+![Screenshot from 2025-03-05 10-39-35](https://github.com/user-attachments/assets/9c345b4f-261e-4c9a-926d-fa0bc70b49f7)
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- <img width="673" alt="Screenshot 2025-02-26 at 11 19 12 AM" src="https://github.com/user-attachments/assets/8927bf7a-4e01-4a2e-b104-e4a53bf4d35c" />
+![Screenshot from 2025-03-05 10-41-08](https://github.com/user-attachments/assets/511bf3cd-3f4d-40a4-a03b-beae4fca2874)
+
 
 comm file1 file2
  ## OUTPUT
-<img width="678" alt="Screenshot 2025-02-26 at 11 19 34 AM" src="https://github.com/user-attachments/assets/6057f526-8dd2-40ec-8845-ec753c2c778b" />
+ ![Screenshot from 2025-03-05 10-41-30](https://github.com/user-attachments/assets/12f7bf46-3647-43f5-93e9-5b5eb1a37f73)
+
 
  
 diff file1 file2
 ## OUTPUT
-<img width="682" alt="Screenshot 2025-02-26 at 11 19 53 AM" src="https://github.com/user-attachments/assets/169fa9fa-34c9-4eae-9a4a-8f136377411a" />
+![Screenshot from 2025-03-05 10-41-45](https://github.com/user-attachments/assets/a83b5968-b67b-4858-9abc-a07dbd73690a)
+
 
 
 #Filters

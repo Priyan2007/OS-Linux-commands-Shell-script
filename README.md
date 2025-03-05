@@ -381,6 +381,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
+![Screenshot from 2025-03-05 11-01-08](https://github.com/user-attachments/assets/205a9f3d-1f42-468f-9fb4-12f86ea3540b)
 
 
 cat > file22
@@ -394,6 +395,7 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
+![Screenshot from 2025-03-05 11-01-19](https://github.com/user-attachments/assets/791bdc40-409c-441c-8ec0-9ca0561b1b45)
 
 
 

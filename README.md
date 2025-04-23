@@ -1140,7 +1140,7 @@ $ chmod 777 argshift.sh
 ## OUTPUT
 $ ./argshift.sh 1 2 3
 
- ![image](https://github.com/user-attachments/assets/1838e628-eff1-489a-8332-f70bb34bf5fe)
+![image](https://github.com/user-attachments/assets/1838e628-eff1-489a-8332-f70bb34bf5fe)
 
 
 cat argshift.sh
@@ -1154,8 +1154,9 @@ done
 set +x
 ```
 ## OUTPUT
- ./argshift.sh 1 2 3
- ![image](https://github.com/user-attachments/assets/22c0ccff-9fde-4e3a-a259-da97c8afbd71)
+./argshift.sh 1 2 3
+ 
+![image](https://github.com/user-attachments/assets/22c0ccff-9fde-4e3a-a259-da97c8afbd71)
 
  
 cat > nc.awk

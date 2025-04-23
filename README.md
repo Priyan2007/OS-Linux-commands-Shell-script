@@ -419,17 +419,20 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
+![Screenshot from 2025-04-23 10-23-09](https://github.com/user-attachments/assets/c0ebdc98-7831-4fe0-827d-88952de245f9)
 
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
+![Screenshot from 2025-04-23 10-23-42](https://github.com/user-attachments/assets/b3ed6dab-43d0-430c-9203-349895747779)
 
 
 
 #Backup commands
 tar -cvf backup.tar *
-## OUTPUT
+## OUTPUT![Screenshot from 2025-04-23 10-26-45](https://github.com/user-attachments/assets/f088c040-a1e1-40b0-bdbe-d282d94e3c98)
+
 
 
 mkdir backupdir
@@ -438,10 +441,12 @@ mv backup.tar backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+![Screenshot from 2025-04-23 10-30-39](https://github.com/user-attachments/assets/77197caf-d160-472d-aa0a-7fa2df4a185b)
 
 
 tar -xvf backup.tar
 ## OUTPUT
+![Screenshot from 2025-04-23 10-31-11](https://github.com/user-attachments/assets/ac46aa9e-b7ab-4ce2-834b-e46e68ef189c)
 
 gzip backup.tar
 
